@@ -1,10 +1,13 @@
 import React from 'react'
 import './App.css'
+import Header from './components/Header/Header'
+import TeslaBatteryContainer from './containers/TeslaBattery'
 
 function App() {
     return (
       <div>
-        <h2>Let's get started</h2>
+        <Header/>
+        <TeslaBatteryContainer/>
       </div>
     )
 }
